@@ -16,14 +16,31 @@ section{display: flex; gap: 70px;}
     width: 30%;
 }
 
+.col30i{
+    width: 30%;
+    padding-right: 10%;
+}
+
 .col70{
     width: 70%;
     padding-right: 10%;
 }
 
+.col70i{
+    width: 70%;
+    padding-right: 0%;
+    padding-left: 5%;
+}
+
 .verdura{
     border: 9px solid slategray;
     background-position: center;
+}
+
+.deportes{
+    border: 4px solid rgb(153, 176, 199);
+    display: block;
+    margin: auto;
 }
 
 footer{
@@ -125,4 +142,10 @@ nav{
     display: block;
     margin: auto;
     
+}
+
+.cuadroactividades{
+    border: 5px solid rgb(143, 139, 157);
+    display: block;
+    margin: auto;
 }
